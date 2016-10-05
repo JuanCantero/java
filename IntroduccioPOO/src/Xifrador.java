@@ -10,7 +10,7 @@ public class Xifrador {
 		for (int i = 0; i< _lletres.length(); i++)
 			xifrat.append((char)(_lletres.charAt(i)+_clau));
 		
-			return xifrat.toString();
+		return xifrat.toString();
 	}
 	public static void main(String[] args) {
 		String lletres;

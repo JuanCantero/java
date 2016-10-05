@@ -1,9 +1,12 @@
+import java.util.Date;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 
 public class persona {
-	private String nom = "Juan";
-	private String cognom = "Cantero";
-	private String genere = "Male";
-	private String dataNaixement = "25-11-1986";
+	 String nom = "Juan";
+	 String cognom = "Cantero";
+	 String genere = "Male";
+	 Date dataNaixement;
 	
 	public persona(){
 		nom="sense nom";
@@ -32,14 +35,14 @@ public class persona {
 	public void setGenere(String genere) {
 		this.genere = genere;
 	}
-	public String getDataNaixement() {
+	public Date getDataNaixement() {
 		return dataNaixement;
 	}
-	public void setDataNaixement(String dataNaixement) {
+	public void setDataNaixement(Date dataNaixement) {
 		this.dataNaixement = dataNaixement;
 	}
 	
 	
-	
+
 	
 }
